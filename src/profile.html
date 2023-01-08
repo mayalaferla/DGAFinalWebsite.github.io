@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/carousel.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Arapey:ital@1&family=Figtree:wght@600&display=swap" rel="stylesheet">
+    <link 
+  href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" 
+  rel="stylesheet"  type='text/css'>
+    <script src="../js/script.js" defer></script>
+    <title>Gallery</title>
+</head>
+<body>
+    
+  <header class="header" id="header">
+    <a href="../index.html" class="logo" id="logo">.</a>
+    <input
+      class="side-menu"
+      type="checkbox"
+      id="side-menu"
+      onclick="changeBackground()"
+    />
+    <label class="hamb" for="side-menu"
+      ><span class="hamb-line"></span
+    ></label>
+    <nav class="nav">
+      <ul class="menu">
+        <li><a href="../index.html">HOME</a></li>
+        <li><a href="./projects.html">PROJECTS</a></li>
+        <li><a href="./sponsors.html">SPONSORS</a></li>
+        <li><a href="./contactus.html">CONTACT US</a></li>
+      </ul>
+    </nav>
+  </header>
+    
+  <section aria-label="Newest Photos" id="section">
+    <div class="carousel" data-carousel>
+      <button class="carousel-button prev" data-carousel-button="prev">&#10229;</button>
+      <button class="carousel-button next" data-carousel-button="next">&#10230;</button>
+      <ul data-slides>
+        <li class="slide" data-active>
+        <div class="row" id="row1">
+            <div class="column1">
+                <div class="image">
+                  <img src="../images/profile.jpg">
+                </div>
+            </div>
+         <div class="column2">
+             <div class="row">
+                 <div class="name">
+                     <h1>JAMIE VELLA</h1>
+                </div>
+            </div>
+            <div class="row">
+            <div class="paragraph">
+                <p> Ut suscipit vitae dolor at placerat. Etiam at tellus porttitor, commodo turpis eget, finibus enim. Maecenas neque velit, gravida ac lacus in, bibendum malesuada dolor. Cras interdum, augue efficitur consequat cursus, lorem quam venenatis elit, ut pellentesque eros massa in velit. Nunc eu dignissim sapien. Pellentesque sit amet orci ac metus elementum commodo. Etiam vel nunc diam. Curabitur eleifend libero non elementum rhoncus. Aliquam vel nisi magna. Pellentesque diam ante, ornare vitae mollis ut, pharetra et diam.</p><br>
+                <p> Nam lorem orci, posuere id mollis nec, tempus quis quam. Nunc ultrices neque et pharetra fringilla. Aenean quis elementum felis, non congue augue. Nullam rutrum tempor urna, quis lobortis dolor mattis et. Praesent vehicula, libero eget iaculis posuere, nibh ex rutrum justo, vitae ultricies orci massa ac augue. Proin mollis varius nunc sed vestibulum. Phasellus fermentum justo sit amet laoreet accumsan. Nulla facilisi. Quisque vestibulum venenatis imperdiet. Donec elementum tortor sit amet nibh tristique volutpat. Nullam eu maximus lectus. Proin id elementum risus.</p><br>
+                <!--<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur et justo viverra, laoreet leo ac, accumsan metus. Cras pretium imperdiet ornare. Maecenas turpis erat, ornare vitae neque dignissim, euismod posuere elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc consectetur nunc vel dui tempus, eu iaculis magna sollicitudin. Integer pharetra blandit neque nec euismod. Mauris ac odio eget odio aliquet iaculis eget ac ligula. Donec sit amet scelerisque erat.</p>-->
+            </div>
+            </div>
+            <div class="row">
+                <div class="fonticons">
+                    <i class="fa fa-brands fa-instagram fa-lg"></i>
+                    <i class="fa fa-brands fa-behance fa-lg"></i>
+                    <i class="fa fa-brands fa-facebook fa-lg"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+        </li>
+        <li class="slide">
+          <img src="../images/max-whitehead-0jYDZcIq7a0-unsplash.jpg" alt="Architecture Image">
+        </li>
+        <li class="slide">
+          <img src="../images/patrick-t-kindt-PmrBmhoInV4-unsplash.jpg" alt="Architecture Image">
+        </li>
+      </ul>
+    </div>
+  </section>
+</body>
+</html>

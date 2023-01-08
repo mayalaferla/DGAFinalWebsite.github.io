@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+           <meta charset="utf-8">
+           <meta name="viewport" content="width=device-width, initial-scale=1">
+           <meta http-equiv="X-UA-Compatible" content="IE=edge">
+           <title>Get in touch</title>
+           <link rel="stylesheet" type="text/css" href="../css/index.css">
+           <link rel="preconnect" href="https://fonts.googleapis.com">
+           <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+           <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Arapey:ital@1&family=Figtree:wght@600&display=swap" rel="stylesheet">
+           <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"  type='text/css'>
+           <script src="../js/script.js" defer></script>
+
+        </head>
+
+   <body>
+    <header class="header" id="header">
+        <a href="../index.html" class="logo" id="logo">.</a>
+        <input
+          class="side-menu"
+          type="checkbox"
+          id="side-menu"
+          onclick="changeBackground()"
+        />
+        <label class="hamb" for="side-menu"
+          ><span class="hamb-line"></span
+        ></label>
+        <nav class="nav">
+          <ul class="menu">
+            <li><a href="../index.html">HOME</a></li>
+            <li><a href="./projects.html">PROJECTS</a></li>
+            <li><a href="./sponsors.html">SPONSORS</a></li>
+            <li><a href="./contactus.html">CONTACT US</a></li>
+          </ul>
+        </nav>
+      </header>
+   
+      <div class="title">
+         <h1 class="getin">Get in <span class="touch">touch.</span></h1>
+      </div>
+      <div class="form">
+         <form id="form-id" class="form-class" method="post" action="contact-form-process.php">
+          
+            <div class="form-group">
+
+                <input type="text" id="first-name" name="first-name"placeholder="First Name" required>
+                
+                <input type="text" id="last-name" name="last-name" placeholder="Last Name" required>
+
+                <div class="input-group">
+                <input type="email" id="Email" name="Email" placeholder="Email Address" required>
+                </div>     
+
+                <div class="input-group">
+                     <textarea id="Message" name="Message" class="form-control" rows="12" maxlength="3000" placeholder="Message" required material-symbols-outlined></textarea>
+                </div>
+            
+                    <button type="submit" id="button" class="button">Submit</button>
+           </div>
+      </div>
+
+    </body> 
+</html>
